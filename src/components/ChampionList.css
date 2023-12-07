@@ -1,25 +1,29 @@
 /* ChampionList.css */
 
 .champion-list {
-    text-align: center;
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    background-color: #f0f0f0;
-  }
-  .heading {
-    color: #333;
-  }
-  
-  .list {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .listItem {
-    margin: 5px;
-    padding: 10px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.heading {
+  color: #333;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around; /* Puedes ajustar esto según sea necesario */
+  flex-wrap: wrap;
+}
+
+.listItem {
+  margin: 20px; /* Ajusta según sea necesario */
+  text-align: center;
+}
+
+.champion-image {
+  width: 100px; /* Ajusta según sea necesario */
+  height: 100px; /* Ajusta según sea necesario */
+  margin-bottom: 10px; /* Ajusta según sea necesario */
+}
