@@ -2,7 +2,7 @@
 import React from 'react';
 import './SearchComponent.css';
 
-const SearchComponent = () => {
+const SearchComponent = ({ searchTerm, setSearchTerm }) => {
   return (
     <div className="header">
       <img
@@ -10,14 +10,12 @@ const SearchComponent = () => {
         alt="Logo"
         className="logo"
       />
-      <div className="search-container">
-        <input
-          type="text"
-          placeholder="Buscar..."
-          className="search-input"
-        />
-        <button className="search-button">Buscar</button>
-      </div>
+         <input
+      type="text"
+      placeholder="Buscar campeón"
+      value={searchTerm}
+      onChange={(e) => setSearchTerm(e.target.value)}
+    />
     </div>
   );
 };
