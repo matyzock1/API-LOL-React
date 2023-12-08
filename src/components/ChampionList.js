@@ -18,6 +18,7 @@ const ChampionList = () => {
         id: championKey,
         name: championsData[championKey].name,
         image: championsData[championKey].image.full,
+        blurb: championsData[championKey].blurb,
       }));
 
       setChampions(championList);

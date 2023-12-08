@@ -16,9 +16,10 @@
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-    min-width: 300px; /* O ajusta según la necesidad */
+    min-width: 300px;  
+    width: 400px; 
+    height: 400px;  
   }
-  
   .popup-content img {
     max-width: 100%; /* Asegura que la imagen no sea más grande que el popup */
     height: auto;
@@ -41,3 +42,7 @@
     background-color: #0056b3;
   }
   
+  
+  .texto {
+    font-weight: bold;
+  }
