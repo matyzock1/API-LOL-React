@@ -1,6 +1,6 @@
 import './App.css';
 import ChampionList from './components/ChampionList';
-import SearchComponent from './components/SearchComponent';
+//import SearchComponent from './components/SearchComponent';
 
 function App() {
   return (
